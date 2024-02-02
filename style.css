@@ -42,7 +42,41 @@ h2{
 }
 
 p{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     margin: 20px 30px;
     color: #FDF0D1;
 }
+
+@media (max-width: 768px) {
+
+    .background{
+        width: 400px;
+        height: 770px;
+        margin: 40px 25px;
+    }
+
+    .paragraph{
+        
+        margin: 10px 35px;
+        padding: 20px 10px;
+    }
+
+    p{
+        margin: 0;
+    }
+    }
+
+
+    @media (max-width: 1200px){
+
+        .background{
+            margin: 50px 150px;
+        }
+    }
+
+    @media (max-width: 576px) {
+
+        .background{
+            margin: 40px 25px;
+        }
+    }
